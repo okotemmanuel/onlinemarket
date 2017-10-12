@@ -104,20 +104,24 @@ $rowfs = mysqli_fetch_assoc($resultfs);
 	$iname = $rows["iname"];
 	$logo = $rows["photo"];
 	$price = $rows["price"];
-	
-	echo                    '<div class="col-lg-6 col-md-6 col-sm-6">'.
-                    '<div class="panel panel-default" style="border-width:0px;">'.
-                        
-                        '<div class="panel-body">'.
-	
-	'<p style="height:10px;"><H4>'.$iname.' , '.'price '.' '.$price .'</H4></p>'.
-        	  '<img class="img-responsive" src='.$logo.' style="" /> '.
-'<a  href="">'.'<h3>'.'</h3>'.'</a>'.			  
-	'</div>'.
-                       
-                    '</div>'.
+echo	
+'<a href="onlineshop.php?idt='.$idt.' & idshop='.$idshop.'">'.	
+'<div  class="col-lg-4 col-md-4 col-sm-4">'.	
+'<div  class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title" style="">'.
+'<H4 style="color:;">'.$iname.'  -  '.'UGX '.' '.number_format($price) .'</H4>'.
+								'</h3>
+                            </div>
+                            <div class="panel-body">'.
+                           '<img class="img-responsive" src='.$logo.' style="height:250px;" /> '.
+                            '</div>
+							<div class="panel-footer">'.
+                                '<h3>shop name :'.$shopname.'</h3>'.
+                            '</div>
+                        </div>	</div></a>';
 				
-                '</div>';}}
+				}}
  
  ?>
 
@@ -154,7 +158,9 @@ $rowfs = mysqli_fetch_assoc($resultfs);
                        
                     '</div>'.
 				
-                '</div>'.'</a>';}}
+                '</div>'.'</a>';
+				
+				}}
  
  ?>
 

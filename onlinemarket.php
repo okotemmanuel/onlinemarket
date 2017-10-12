@@ -249,7 +249,7 @@ $cateer = $rows["catname"];}
  $shopname = $rowls["shopname"];
 	
 		echo 
-'<a href="onlineshop.php?idt='.$idts.' & idshop='.$idshop.'">'.	
+'<a href="onlineshop.php?idt='.$idt.' & idshop='.$idshop.'">'.	
 '<div  class="col-lg-4 col-md-4 col-sm-4">'.	
 '<div  class="panel panel-info">
                             <div class="panel-heading">
@@ -289,7 +289,7 @@ $cateer = $rows["catname"];}
  $shopname = $rowls["shopname"];
 	
 		echo 
-'<a href="onlineshop.php?idt='.$idts.' & idshop='.$idshop.'">'.	
+'<a href="onlineshop.php?idt='.$idt.' & idshop='.$idshop.'">'.	
 '<div  class="col-lg-4 col-md-4 col-sm-4">'.	
 '<div  class="panel panel-info">
                             <div class="panel-heading">
@@ -355,7 +355,7 @@ $logo = $rowgs["photo"];
 $price = $rowgs["price"];
 	
 		echo 
-'<a href="onlineshop.php?idt='.$idts.' & idshop='.$idshop.'">'.	
+'<a href="onlineshop.php?idt='.$idt.' & idshop='.$idshop.'">'.	
 '<div  class="col-lg-4 col-md-4 col-sm-4">'.	
 '<div  class="panel panel-info">
                             <div class="panel-heading">
@@ -414,7 +414,7 @@ $logo = $rowgs["photo"];
 $price = $rowgs["price"];
 	
 		echo 
-'1<a href="onlineshop.php?idt='.$idts.' & idshop='.$idshop.'">'.	
+'1<a href="onlineshop.php?idt='.$idt.' & idshop='.$idshop.'">'.	
 '<div  class="col-lg-4 col-md-4 col-sm-4">'.	
 '<div  class="panel panel-info">
                             <div class="panel-heading">
